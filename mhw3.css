@@ -1,0 +1,467 @@
+/* font da Google Fonts */
+.gowun-batang-regular {
+    font-family: "Gowun Batang", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2em;
+}
+
+.gowun-batang-bold {
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2em;
+    color: #ced4da;
+}
+
+.colore{
+  color: #212529;
+}
+
+
+/* SELETTORE PER TUTTI GLI ELEMENTI DELLA PAGINA, lo impostiamo per eliminare i margini della navbar e del footer */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.contenitore{
+  margin: 0px 11vw;
+  padding: 20px; 
+  border: 1px solid black; 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Stili della navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212529;
+  padding: 10px 20px;
+  height: 75px;
+}
+.navbar-logo{
+  width: auto;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+.navbar-logo a {
+  color: #fff;
+  font-size: 32px;
+  text-decoration: none; /* per eliminare la sottolineatura */
+  margin-left: 63px;
+}
+.hamburger{
+  display: none;
+}
+.navbar-menu {
+  list-style: none; /* per eliminare i puntini della "lista" nella navbar */
+  display: flex; /* lo usiamo per distribuire gli elementi della lista in orizzontalmnte */
+}
+
+.navbar-menu li {
+  margin: 0 65px; /* applichiamo un margine di 65px al lato sinistro e destro degli elementi della lista nella navbar */
+}
+
+.navbar-menu a {
+  color: #C9CACC;
+  text-decoration: none; /* togliamo la sottolineatura */
+  font-size: 19px;
+}
+
+.navbar-accesso{
+  margin-right: 30px;
+}
+
+.navbar-accesso a {
+  color: #C9CACC;
+  text-decoration: none;
+  font-size: 19px;
+  margin-left: 40px;
+}
+
+p{
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+.classefont{
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+
+#titolo1{
+  margin: 16px 0px;
+  font-size: 32px;
+}
+#titolo2{
+  margin: 16px 0px;
+  font-size: 24px;
+}
+#titolo3{
+  margin: 16px 0px;
+  font-size: 24px;
+}
+
+#div1{
+    margin-top: 8px;
+}
+#ul1{
+  margin-top: -6px; 
+  padding-left: 32px; 
+  margin-bottom: 16px;
+}
+#p1{
+  margin-top: 48px;
+}
+#div_button{
+  display: flex; 
+  justify-content: center;
+}
+#a_button{
+  background-color: #0DCAF0; 
+  text-decoration: none; 
+  color: black; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 760px; 
+  height: 50px;
+  margin: 16px 0px 24px 0px; 
+  border-radius: 5px;
+}
+#ico_fissata{
+  position: fixed; 
+  bottom: 10px; 
+  left: 10px; 
+  z-index: 99; 
+  width: 48px; 
+  height: 48px;
+  
+}
+.footer{
+  background-color: #212529; color: white;
+}
+#div1_footer{
+  margin: 0px 56px; 
+  padding: 24px 12px;
+}
+#div1_5footer{
+  display: flex;
+}
+#div2_footer{
+  padding: 0px 12px; 
+  width: 50%;
+}
+#div3_footer{
+  margin-left: 130px;
+}
+#h5_footer{
+  font-size: 20px; 
+  margin-bottom: 8px; 
+  font-family: system-ui;
+}
+#p1_footer{
+  font-size: 16px; 
+  margin-bottom: 16px;
+}
+#div4_footer{
+  width: 50%; 
+  padding: 0px 12px;
+}
+#ul_footer{
+  display: flex; 
+  list-style: none; 
+  margin-bottom: 16px;
+}
+.li_footer{
+  margin-right: 8px;
+}
+.a_footer{
+  color: white; 
+  font-size: 16px; 
+  font-family: 
+  system-ui;
+}
+
+.peroverlay{
+  position: relative;
+}
+.overlay{
+  position: absolute; 
+  top: 5px; 
+  left: 5px; 
+  z-index: 50; 
+  color: white; 
+  font-size: 24px;
+}
+.box_foto{
+  cursor: pointer;
+  width: 50vw;
+  height: 80vh;
+}
+
+#spotify a{
+  display: block;
+  margin: 5px 10px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+
+#assistente{
+  position: fixed; 
+  bottom: 10px; 
+  right: 10px; 
+
+}
+.assistenteAperto{
+  padding: 5px; 
+  border: 1px solid grey; 
+  background-color: azure; 
+  border-radius: 5px; 
+  width: 15vw; 
+  height: 35vh;
+}
+.assistenteChiuso{
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+  border: solid 1px black;
+}
+#titoloAssistente{
+  display: flex;
+}
+#titoloAssistente h3{
+  width: 75%;
+}
+#titoloAssistente span{
+  cursor: pointer; 
+  display: inline-block; 
+  width: 25%; 
+  text-align: center; 
+  border: solid 1px black; 
+  height: 43%; 
+  border-radius: 10px;
+}
+
+#assistente-figlio{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#assistente img{
+  display: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#assistente-figlio h3{
+  text-align: center;
+}
+#messaggi{
+  flex: 1;
+  bottom: 3px; 
+  padding: 3px; 
+  display: flex; 
+  flex-direction: column;
+  overflow-y: auto;
+}
+.assistenza{
+  align-self: 
+  flex-start; 
+  margin: 3px; 
+  padding: 3px; 
+  border-radius: 3px; 
+  background-color: #202C33; 
+  color: white; 
+  display: inline-block;
+}
+.utente{
+  align-self: flex-end; 
+  margin: 3px; 
+  padding: 3px; 
+  border-radius: 3px; 
+  background-color: #005C4B; 
+  color: white; 
+  display: inline-block;
+}
+#chat{
+  width: 100%; 
+  display: flex;
+}
+#chat textarea{
+  width: 75%; 
+  padding: 3px; 
+  margin-right: 3px;
+}
+#chat button{
+  width: 25%;
+}
+
+@media (max-width: 992px){
+  .navbar {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 8px 8px;
+  }
+  .navbar-logo a{
+    margin: 0px 16px;
+    padding: 5px 0px;
+  }
+  .navbar-logo{
+    width: 100%;
+  }
+  .navbar-menu{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-menu li {
+    margin: 0px 0px; 
+    padding: 8px 0px;
+  }
+  .navbar-menu a {
+    margin-left: 16px; 
+  }
+
+  /* per l'icona */
+  /* 6) utilizzare attributi data-*   */
+  .hamburger[data-poggia-mouse="0"] {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    border: 1px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .hamburger[data-poggia-mouse="1"] {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    border: 3px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      margin: 3px;
+      background-color: gray;
+      border-radius: 2px;
+  }
+
+
+  .navbar-accesso{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-accesso a{
+    margin-left: 16px;
+    padding: 8px 0px;
+  }
+
+  .contenitore{
+    margin-left: 0px; 
+    margin-right: 0px; 
+    padding: 20px; 
+    border: 1px solid black; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  #a_button{
+    width: 300px;
+  }
+  #h5_footer{
+    margin: 0px 0px 8px 0px;
+  }
+  #p1_footer{
+    margin: 0px 0px 16px 0px;
+  }
+  #div3_footer{
+    margin-left: 16px;
+  }
+  #div2_footer{
+    width: 100%;
+  }
+  #div1_5footer{
+    flex-direction: column;
+  }
+  #div1_footer{
+    margin: 0px 0px; 
+  }
+  #div4_footer{
+    width: 100%;
+    padding: 0px 12px;
+  }
+  .invisibile_mobile{
+    display: none;
+  }
+  .box_foto{
+    cursor: pointer;
+    width: 70vw;
+    height: 40vh;
+  }
+
+
+
+
+  #assistente{
+    position: fixed; 
+    bottom: 50px; 
+    right: 10px; 
+  }
+  .assistenteAperto{
+    padding: 5px; 
+    border: 1px solid grey; 
+    background-color: azure; 
+    border-radius: 5px; 
+    width: 80vw; 
+    height: 35vh;
+  }
+  .assistenteChiuso{
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    border: solid 1px black;
+  }
+  #assistente-figlio{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  #assistente img{
+    display: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  #titoloAssistente span{
+    cursor: pointer; 
+    display: inline-block; 
+    width: 25%; 
+    text-align: center; 
+    border: solid 1px black; 
+    height: 85%; 
+    border-radius: 10px;
+  }
+}
